@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Event Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">ABC</div>
+      <h1>ABC Event Management</h1>
+      
+    </div>
+    <nav id="main-nav">
+      <a href="#" class="nav-link active" data-view="home">Home</a>
+      <a href="#" class="nav-link" data-view="about">About Us</a>
+      <a href="#" class="nav-link" data-view="book">Book Now</a>
+      <a href="#" class="nav-link" data-view="contact">Contact</a>
+    </nav>
+    <button id="mobile-toggle">☰</button>
+  </header>
+
+  <main id="app">
+    <!-- HOME -->
+    <section id="home" class="view">
+      <div class="hero">
+        <center>
+          <div class="hero-image">
+            <img src="logo.png" >
+          </div>
+          <br>
+          <div class="hero-text">
+            <h1><span>Welcome to ABC Event Management</span></h1>
+            <p>
+              Turning your special moments into unforgettable memories.  We specialize in weddings, corporate functions, birthdays, and all kinds of celebrations handling everything from décor and catering to entertainment and logistics.
+            </p>
+          </div>
+        </center>
+      </div>
+
+      <div class="features">
+        <h2>What Sets Us Apart</h2>
+        <div class="feature-grid">
+          <div class="feature-box">
+            <img src="https://img.icons8.com/fluency/96/party-baloons.png" alt="Experience">
+            <h3>Creative Experience</h3>
+            <p>With years of expertise, our team delivers extraordinary themes and flawless execution for every event.</p>
+          </div>
+          <div class="feature-box">
+            <img src="https://img.icons8.com/fluency/96/security-checked.png" alt="Quality">
+            <h3>End-to-End Service</h3>
+            <p>From planning to post-event wrap-up, we handle everything — so you can simply enjoy your celebration.</p>
+          </div>
+          <div class="feature-box">
+            <img src="https://img.icons8.com/fluency/96/handshake.png" alt="Customer Focus">
+            <h3>Client-Centered Approach</h3>
+            <p>Your ideas, our creativity. We design every event around your vision and preferences.</p>
+          </div>
+          <div class="feature-box">
+            <img src="https://img.icons8.com/fluency/96/circus-tent.png" alt="Customer Focus">
+            <h3>Client-Centered Approach</h3>
+            <p>We transform spaces into breathtaking venues that reflect your vision and style.</p>
+          </div>
+        </div>
+      </div>  
+
+      <div class="cta">
+        <h2>Ready to Plan Your Perfect Event?</h2>
+        <p>Whether it's a grand wedding or a simple gathering, we’ll make it extraordinary.</p>
+        <button id="open-booking" class="btn primary">Get Started</button>
+      </div>
+      
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="view" style="display:none;">
+      <h2 id="about">About Us:</h2>
+      <p>
+        🌟 About Us – Crafting Memories, Creating Magic
+
+At ABC Event Management, we believe that every event tells a story — your story.
+Our mission is simple yet profound: to transform your vision into an unforgettable reality filled with elegance, joy, and seamless perfection.
+Founded with passion and a commitment to excellence, ABC Event Management has grown into one of the most trusted and creative event planning companies. We specialize in weddings, corporate events, private parties, product launches, and celebratory gatherings that leave a lasting impression.
+<br>
+💫 Our Philosophy
+
+We don't just organize events — we design experiences.
+From the initial concept to the final curtain call, our approach blends creativity with precision, ensuring every moment feels magical. Our team thrives on innovation, attention to detail, and the desire to exceed expectations every single time.
+We understand that no two clients are alike. That is why every event we manage is tailored to reflect your unique taste, style, and personality.
+<br>
+🏆 What Makes Us Different
+Unparalleled Expertise Years of experience in luxury and corporate events.
+End-to-End Services From décor and catering to entertainment and logistics.
+Trusted Partnerships We work with premium vendors and venues for the best results.
+Personalized Planning Every client gets a dedicated event coordinator.
+On-Time, On-Budget Efficiency meets excellence in every project we deliver.
+<br>
+🎉 Our Journey
+
+What started as a small, passionate team of dreamers has evolved into a powerhouse of creativity and reliability.
+From intimate family gatherings to grand destination weddings and corporate conferences, we’ve successfully managed hundreds of events across India.  Every milestone has been an opportunity to grow, learn, and refine our craft — always guided by our core values of trust, transparency, and quality.
+<br>
+🤝 Our Promise
+
+At ABC Event Management, our promise is simple —
+“You dream it, we create it.”
+We take pride in making the impossible possible, combining artistry, technology, and teamwork to create experiences that speak to the heart.  Whether it’s a romantic wedding under the stars or a sophisticated business gala, we ensure every detail shines with the perfection you deserve.
+<br>
+💍 Let’s Create Something Beautiful Together Your event deserves more than just good planning — it deserves passion, creativity, and soul.  Let’s collaborate and craft moments that linger in memories long after the lights go out.
+      </p>
+    </section>
+
+    <!-- BOOK NOW -->
+    <section id="book" class="view" style="display:none;">
+      <h2>Book Your Event</h2>
+      <form id="booking-form">
+        <input type="text" name="fullname" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="date" name="date" required />
+        <select name="event-type" required>
+          <option value="" disabled selected>Select Event Type</option>
+          <option>Wedding</option>
+          <option>Corporate</option>
+          <option>Private Party</option>
+        </select>
+        <textarea name="details" placeholder="Additional Details"></textarea>
+        <button type="submit" class="btn primary full">Submit Booking</button>
+      </form>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="view" style="display:none;">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Message..." required></textarea>
+        <button type="submit" class="btn primary full">Send Message</button>
+      </form>
+      <div class="info">
+        <p>📍 Chennai, India</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@abcevents.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ABC Event Management. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+    
+</body>
+</html>
+
+</body>
+</html>
