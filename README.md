@@ -49,7 +49,6 @@ It provides a smooth and user-friendly interface for:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone [https://github.com/eraianbu-damodharan/Event_Management.git](https://github.com/Eraianbu-Damodharan/Event_Management.git)
 
 
 ## 📁 Folder Structure
