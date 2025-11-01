@@ -259,10 +259,11 @@ footer {
   margin-top: 1rem;
 }
 
-.reader{
+#about{
   text-align: center;
 }
 
-.reader p {
+#about p {
   font-family: 'Montserrat', sans-serif;
 }
+
