@@ -5,7 +5,7 @@
   --radius: 12px;
 }
 
-*{
+.heading {
   font-family: 'Playfair Display', serif;
 
 }
@@ -219,7 +219,6 @@ footer {
 
 .feature-grid {
   display: grid;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #ffffff;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
@@ -260,6 +259,10 @@ footer {
   margin-top: 1rem;
 }
 
-.view{
+.reader{
   text-align: center;
+}
+
+.reader p {
+  font-family: 'Montserrat', sans-serif;
 }
