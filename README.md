@@ -55,9 +55,6 @@ It provides a smooth and user-friendly interface for:
 Event_Management/
 │
 ├── index.html              # 🏠 Home Page
-├── about.html              # ℹ️ About Us Page
-├── book.html               # 📅 Book Now Page
-├── contact.html            # 📞 Contact Us Page
 │
 ├── style.css               # 🎨 Main CSS (shared by all pages)
 ├── script.js               # ⚙️ Main JavaScript (shared by all pages)
