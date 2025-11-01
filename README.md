@@ -49,8 +49,28 @@ It provides a smooth and user-friendly interface for:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/eraianbu-damodharan/Event_Management.git
+git clone [https://github.com/eraianbu-damodharan/Event_Management.git](https://github.com/Eraianbu-Damodharan/Event_Management.git)
 
 
 ## 📁 Folder Structure
+Event_Management/
+│
+├── index.html              # 🏠 Home Page
+├── about.html              # ℹ️ About Us Page
+├── book.html               # 📅 Book Now Page
+├── contact.html            # 📞 Contact Us Page
+│
+├── style.css               # 🎨 Main CSS (shared by all pages)
+├── script.js               # ⚙️ Main JavaScript (shared by all pages)
+│
+├── assets/                 # 📦 Folder for images, icons, and media
+│   ├── logo.png            # Website or Code Sapiens logo
+│   ├── banner.jpg          # Home page banner image
+│   ├── about/              # About page images
+│   ├── events/             # Event pictures
+│   └── screenshots/        # Screenshots for README.md
+│
+├── README.md               # 📘 Project documentation (for GitHub)
+└── LICENSE                 # 📄 Optional (MIT License or similar)
+
 
